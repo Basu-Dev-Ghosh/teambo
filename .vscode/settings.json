@@ -1,0 +1,15 @@
+{
+  "files.autoSave": "onFocusChange",
+  "editor.formatOnSaveMode": "modifications",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.defaultFormatter": "vscode.typescript-language-features",
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "git.ignoreLimitWarning": true,
+  "editor.formatOnType": true,
+  "[css]": {
+    "editor.defaultFormatter": "SimonSiefke.prettier-vscode"
+  }
+}

@@ -1,0 +1,120 @@
+.login-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+.login-container2 {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+.login-button {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 18px #0000001a;
+  border-radius: 20px;
+  width: 415px;
+  height: 44px;
+}
+.login-button2 {
+  background: #3975EA 0% 0% no-repeat padding-box;
+border-radius: 20px;
+  width: 415px;
+  height: 44px;
+}
+
+.logo-container{
+  margin: 100px;
+  width: 40vw;
+}
+select {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 18px #0000001a;
+  border-radius: 15px !important;
+  border: 0 !important;
+  outline: none !important;
+  padding: 12px !important;
+  padding-left: 30px !important;
+  -webkit-appearance: none !important;
+  background: transparent !important;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='22' viewBox='0 0 24 24' width='28' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>") !important;
+  background-repeat: no-repeat !important;
+  background-position-x: 97% !important;
+  background-position-y: 14px !important;
+}
+.form-box {
+  width: 423px;
+  margin: auto;
+  padding: 50px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+border-radius: 20px;
+}
+.form-box1 {
+  width: 790px;
+  margin: auto;
+  padding: 60px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 18px #0000001A;
+  border-radius: 20px;
+}
+.form-box1 input,.form-box input{
+  padding:10px;
+  padding-left: 20px;
+  border: 2px solid #e8e7e7;
+  border-radius: 15px !important;
+}
+
+.signup-para{
+  text-align: center;
+letter-spacing: 2px;
+color: #000000;
+margin-top: 10px;
+}
+.form-control::placeholder{
+  opacity: .4;
+  border-color: #CDCDCD !important;
+}
+.password-div input::placeholder{
+  opacity: .4;
+  border-color: #CDCDCD !important;
+}
+.signup-h6{
+  text-align: center;
+  font-size: 18px !important;
+}
+.password-div{
+  display: flex;
+  width: 100%;
+  border: 2px solid #e1e0e0;
+border-radius: 15px;
+align-items: center;
+}
+.password-div input{
+  width: 120% !important;
+  border: 0;
+  background: transparent;
+  outline: none;
+}
+.password-div input:focus{
+  border-color: #e1e0e0 !important;
+  box-shadow: #e1e0e0 !important;
+}
+
+@media screen and (max-width: 680px) {
+.form-box {
+  width: 90%;
+
+}
+.logo-container{
+  display: none;
+}
+.form-box1 {
+  width: 90%;
+
+}
+}
